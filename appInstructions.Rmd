@@ -1,0 +1,58 @@
+---
+title: "Height App Instructions"
+author: "Roland Plett"
+date: "March 22, 2015"
+output: html_document
+---
+
+It's quite remarkable how easy it is to predict a person's height based on their shoe
+size and their choice of shoe laces. The Height App assists you by predicting
+a person's height based on these two simple input criteria.
+
+To run the app simply go to https://rnplett.shinyapps.io/height/
+
+The application's opening display has an Input Panel on the left side of the 
+screen and an Output Panel on the right side of the screen. The Output panel has the 
+calculated outputs on the opening screen with additional tabs along the top for
+further information.
+
+### Input Panel - Shoe Description
+
+This panel is on the left side of the opening screen, where the app user
+inputs the shoe description information that will be used for the prediction.
+
+<b>Shoe Size:</b> is selected by moving a slider from left to right until it 
+matches the desired shoe size.
+
+<b>Shoe Lace Type:</b> is selected by clicking on the radio button beside the 
+Lace description that best matches the shoe description.
+
+### Output Panel - Predicted Results
+
+This panel is on the right side of the opening screen, where all the resulting
+app information is displayed.
+
+#### Predicted Height Tab - default
+
+The opening tab (displayed when the app opens) is the Predicted Height tab. The 
+information shown here is a direct result of the current information selected
+on the input panel on the left side of the screen.
+
+<b>Shoe Size:</b> should match the number on input slider position in the input panel.
+
+<b>Shoe Lace Type:</b> should match the type of shoelace selected on the input panel.
+
+<b>Date:</b> should match the date that was selected on the input panel.
+
+<b>Predicted Height:</b> is the predicted height based on the predictive 
+algorythm that this app is built on.
+
+### Study Data Tab
+
+Click this tab at the top of the Output Panel to read more information about the
+data that is behind the algorythm of this app.
+
+### Help Info Tab
+
+Click this tab at the top of the Output Panel to read and click on reference
+links that provide further description and background on this app.
