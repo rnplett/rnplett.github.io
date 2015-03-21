@@ -47,12 +47,12 @@ on the input panel on the left side of the screen.
 <b>Predicted Height:</b> is the predicted height based on the predictive 
 algorythm that this app is built on.
 
-### Study Data Tab
+#### Study Data Tab
 
 Click this tab at the top of the Output Panel to read more information about the
 data that is behind the algorythm of this app.
 
-### Help Info Tab
+#### Help Info Tab
 
 Click this tab at the top of the Output Panel to read and click on reference
 links that provide further description and background on this app.

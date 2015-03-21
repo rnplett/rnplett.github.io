@@ -60,12 +60,35 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 
 
-<p>It’s quite remarkable how easy it is to predict a person’s height based on shoe size and their choice of shoe laces. The Height App assists you by predicting a person’s height based these two simple input criteria.</p>
-<p>To run the app open an R console window and enter the following two commands. These two commands should cause the app to open in your default web browser.</p>
-<pre class="r"><code>library(shiny)
-runUrl(url=&quot;https://rnplett.github.io/height.zip&quot;)</code></pre>
-<p>If you are less trusting and prefer to look at the R code before you run it in your environment the original ui.R and server.R files can be found in the following gihub repository directory.</p>
-<p><a href="https://github.com/rnplett/dataproducts/tree/master/height">https://github.com/rnplett/dataproducts/tree/master/height</a></p>
+<p>It’s quite remarkable how easy it is to predict a person’s height based on their shoe size and their choice of shoe laces. The Height App assists you by predicting a person’s height based on these two simple input criteria.</p>
+<p>To run the app simply go to <a href="https://rnplett.shinyapps.io/height/">https://rnplett.shinyapps.io/height/</a></p>
+<p>The application’s opening display has an Input Panel on the left side of the screen and an Output Panel on the right side of the screen. The Output panel has the calculated outputs on the opening screen with additional tabs along the top for further information.</p>
+<div id="input-panel---shoe-description" class="section level3">
+<h3>Input Panel - Shoe Description</h3>
+<p>This panel is on the left side of the opening screen, where the app user inputs the shoe description information that will be used for the prediction.</p>
+<p><b>Shoe Size:</b> is selected by moving a slider from left to right until it matches the desired shoe size.</p>
+<p><b>Shoe Lace Type:</b> is selected by clicking on the radio button beside the Lace description that best matches the shoe description.</p>
+</div>
+<div id="output-panel---predicted-results" class="section level3">
+<h3>Output Panel - Predicted Results</h3>
+<p>This panel is on the right side of the opening screen, where all the resulting app information is displayed.</p>
+<div id="predicted-height-tab---default" class="section level4">
+<h4>Predicted Height Tab - default</h4>
+<p>The opening tab (displayed when the app opens) is the Predicted Height tab. The information shown here is a direct result of the current information selected on the input panel on the left side of the screen.</p>
+<p><b>Shoe Size:</b> should match the number on input slider position in the input panel.</p>
+<p><b>Shoe Lace Type:</b> should match the type of shoelace selected on the input panel.</p>
+<p><b>Date:</b> should match the date that was selected on the input panel.</p>
+<p><b>Predicted Height:</b> is the predicted height based on the predictive algorythm that this app is built on.</p>
+</div>
+<div id="study-data-tab" class="section level4">
+<h4>Study Data Tab</h4>
+<p>Click this tab at the top of the Output Panel to read more information about the data that is behind the algorythm of this app.</p>
+</div>
+<div id="help-info-tab" class="section level4">
+<h4>Help Info Tab</h4>
+<p>Click this tab at the top of the Output Panel to read and click on reference links that provide further description and background on this app.</p>
+</div>
+</div>
 
 
 </div>
